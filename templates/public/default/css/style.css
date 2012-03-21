@@ -1,0 +1,250 @@
+body {
+	font: 1em Arial, Helvetica, Sans-Serif;
+	background: #EEE;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+i, em {
+	font-style: italic;
+}
+
+.wrapper {
+	background: #FFF;
+	width: 960px;
+	margin: 20px auto;
+	padding: 10px;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px #CCC;
+	-moz-box-shadow: 3px 3px 3px #CCC;
+	-webkit-box-shadow: 3px 3px 3px #CCC;
+}
+
+.header {
+	width: 960px;
+	height: 180px;
+	background: url('../images/header-background.jpg');
+}
+
+.header h1 {
+	font-size: 3em;
+	padding: 35px 25px;
+	color: #FFF;
+	text-shadow: 2px 1px 0px #836313;
+	text-shadow: 2px 1px 0px rgba(131, 99, 19, .7);
+}
+
+.nav {
+	overflow: hidden;
+	text-align: center;
+	background: #EEE;
+	width: 960px;
+	margin: 10px auto;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a, .nav li a:link, .nav li a:visited {
+	display: block;
+	padding: 17px;
+	font-size: .9em;
+	text-decoration: none;
+	color: #333;
+}
+
+.nav li a:hover, .nav li a:focus {
+	background: #DDD;
+}
+
+.nav li a.selected {
+	background: #DDD;
+}
+
+.message {
+	padding: 10px;
+	margin: 10px auto;
+	background: #EEE;
+	border-top: 2px solid #DDD;
+	border-bottom: 2px solid #DDD;
+	font-size: .9em;
+	font-style: italic;
+}
+
+.content {
+	width: 620px;
+	padding: 10px;
+	float: left;
+	font-size: .9em;
+}
+
+.content h2 {
+	font-size: 1.8em;
+	padding: 0px 0px 5px 0px;
+}
+
+.content h3 {
+	font-size: 1.4em;
+	padding: 5px 0px;
+}
+
+.content p {
+	margin: 5px 0px;
+}
+
+.label {
+	display: block;
+	padding: 5px 0px;
+}
+
+.input {
+	border: 1px solid #CCC;
+	padding: 5px;
+	font-size: 1em;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	transition: ease-out all 0.3s;
+	-moz-transition: ease-out all 0.3s;
+	-webkit-transition: ease-out all 0.3s;
+}
+
+.input:focus {
+	box-shadow: 0px 0px 3px #BBB;
+	-moz-box-shadow: 0px 0px 3px #BBB;
+	-webkit-box-shadow: 0px 0px 3px #BBB;
+}
+
+.textbox {
+	width: 400px;
+}
+
+.textarea {
+	width: 610px;
+	height: 140px;
+}
+
+.button {
+	display: block;
+	margin: 5px 5px 0px 0px;
+	background: #EEE;
+}
+
+.button:hover, .button:focus {
+	background: #DDD;
+}
+
+.sidebar {
+	width: 300px;
+	padding: 10px;
+	float: left;
+	font-size: .9em;
+}
+
+.sidebar h3 {
+	font-size: 1.2em;
+}
+
+.mod-label {
+	display: block;
+	font-size: .95em;
+	margin: 3px 0;
+}
+
+.mod-input {
+	border: 1px solid #CCC;
+	padding: 2px;
+	font-size: 1em;
+}
+
+.mod-textbox {
+	width: 296px;
+}
+
+.mod-button {
+	margin: 5px 0px 0px 5px;
+	float: right;
+}
+
+.footer {
+	border-top: 1px solid #CCC;
+	font-size: .8em;
+	text-align: center;
+	width: 940px;
+	padding: 10px 0 5px;
+	margin: 10px auto;
+}
+
+/*ARTICLE***********************/
+
+.article-author, .article-date {
+	font-size: .94em;
+	font-style: italic;
+	color: #666;
+}
+
+.article-content {
+	color: #333;
+	font-size: .9em;
+}
+
+/*PROFILE***********************/
+
+.profile {
+	overflow: hidden;
+	width: 620px;
+}
+
+.profile-left {
+	width: 200px;
+	float: left;
+}
+
+.profile-right {
+	width: 400px;
+	float: left;
+	padding: 10px;
+}
+
+.profile-label {
+	display: block;
+	margin: 5px 1px;
+	font-weight: bold;
+	color: #444;
+}
+
+.profile-links {
+	width: 200px;
+	list-style: none;
+	overflow: hidden;
+}
+
+.profile-links li {
+	float: left;
+}
+
+.profile-links a, .profile-links a:link, .profile-links a:visited {
+	width: 182px;
+	padding: 8px;
+	display: block;
+	border: 1px solid #CCC;
+	text-decoration: none;
+	background: #EEE;
+	color: #333;
+	text-align: center;
+	font-size: .9em;
+}
+
+.profile-links a:hover, .profile-links a:focus {
+	background: #DDD;
+	border-color: #EEE;
+}
+
+
+
+
+
+

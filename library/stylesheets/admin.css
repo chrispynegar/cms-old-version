@@ -1,0 +1,36 @@
+.system-admin {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	background: #333;
+	color: #EEE;
+	font: .9em Georgia, Arial, Helvetica;
+}
+
+.system-admin li {
+	float: left;
+}
+
+.system-admin li a, .system-admin li a:link, .system-admin li a:visited {
+	color: #FFF;
+	text-decoration: none;
+	padding: 3px 6px;
+	display: block;
+}
+
+.system-admin li a:hover, .system-admin li a:focus {
+	text-decoration: underline;
+}
+
+.edit-article {
+	text-align: left;
+}
+
+.edit-article h3 {
+	font-size: 2em;
+}
+
+.edit-article textarea {
+	width: 300px;
+}

@@ -1,0 +1,23 @@
+#modal-mask {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	display: none;
+	background-color: black;
+}
+
+.modal-window {
+	position: absolute;
+	display: none;
+	color: white;
+}
+
+#article_editor {
+	padding: 50px;
+	border: 1px solid gray;
+	background: #FFF;
+	color: #333;
+	width: 50%;
+}

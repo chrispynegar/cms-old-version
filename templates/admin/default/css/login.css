@@ -1,0 +1,67 @@
+
+body {
+	background: #EEE;
+	color: #333;
+	font: 1em Arial, Helvetica, Sans-Serif;
+}
+
+.form {
+	width: 450px;
+	background: #FFF;
+	padding: 10px;
+	margin: 10% auto;
+	border-radius: 4px;
+	box-shadow: 1px 1px 9px #BBB;
+}
+
+.fieldset {
+	border: 1px solid #DDD;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+.legend {
+	padding: 6px 10px;
+	border: 1px solid #DDD;
+	font-size: 1.2em;
+	box-shadow: 1px 1px 1px #CCC;
+	border-radius: 5px;
+}
+
+.label {
+	display: block;
+	margin: 10px 0;
+	font-size: .9em;
+}
+
+.input {
+	border: 1px solid #DDD;
+	font-size: 1.1em;
+	border-radius: 2px;
+}
+
+.input:focus {
+	box-shadow: 0px 0px 3px #CCC;
+}
+
+.textbox {
+	width: 426px;
+}
+
+.button {
+	margin: 10px 0 0;
+	float: right;
+	padding: 3px;
+	font-size: 1em;
+	background: #EEE;
+}
+
+.button:hover, .button:focus {
+	background: #DDD;
+}
+
+.message {
+	font-size: .9em;
+	font-style: italic;
+	color: #666;
+}
